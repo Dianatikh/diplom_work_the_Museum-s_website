@@ -1,0 +1,105 @@
+
+
+.main-menu, .responsive-menu ul, .social-member, .progess-bars, .first-footer .social-footer ul { padding: 0; margin: 0; list-style: none; }
+
+body { font-size: 16px; font-family: 'Roboto', sans-serif; color: #fffaff; font-weight: 300; font-style: normal; -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */ -webkit-text-size-adjust: 100%; }
+html, body {
+  height: 100%;
+}
+body{
+        position:relative;
+ 
+    
+    background-color: #050401;
+    background: url(../img/index/bg.png) no-repeat center center fixed;
+ background-size: cover; 
+-moz-background-size: cover; 
+-o-background-size: cover; 
+-webkit-background-size: cover;
+    
+}
+
+a, a:hover, a:focus { text-decoration: none; -webkit-transition: all 150ms ease-in; -moz-transition: all 150ms ease-in; -o-transition: all 150ms ease-in; transition: all 150ms ease-in; }
+
+h1, h2, h3, h4, h5, h6 { font-family: 'Roboto', sans-serif; }
+
+*, *:before, *:after { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+#main-content, .full-width-slider { float: right; width: 77%; }
+
+
+a.largeButton { color: white; text-transform: uppercase; font-weight: 700; font-size: 14px; display: inline-block; padding: 10px 20px; border-bottom: 3px solid; }
+
+
+
+#main-sidebar { float: left; width: 23%; height: 100%; position: fixed; background-color: #495054; color: white; background-image: url(../img/36-fon-dlya-sayta.png); 
+overflow: auto;}
+#main-sidebar div
+{
+    margin: 20px 0px ;
+   
+}
+.logo{opacity: 1;}
+.logo img { width: 95%; opacity: 1.5; }
+
+.main-menu { text-align: left;}
+
+.main-menu li a { color: #050401;  display: block; border-left: 0px solid; padding: 7px 30px;  -webkit-transition: all 150ms ease-in; -moz-transition: all 150ms ease-in; -o-transition: all 150ms ease-in; transition: all 150ms ease-in; }
+.main-menu li a:hover { color: #1F59AF; }
+
+.btn-menu button
+{
+    border-color: #1F59AF;
+    border-radius: 10px;
+    color: #fffaff;
+    background-color: #1f59af;    
+    margin: 10px;
+    padding: 15px 20px;
+    
+}
+.btn-menu button:hover
+{
+    border-color: #4694E2;
+    border-radius: 10px;
+    color: #fffaff;
+    background-color: #4694E2;    
+    
+    
+}
+.contacts { color: #1f59af; padding-left: 30px;}
+.contacts:hover { color: #050401;}
+
+
+
+
+
+.responsive-navigation { position: relative; width: 100%; display: block; z-index: 9999; }
+
+.responsive-menu { display: none;text-align: center; background-image: url(../img/36-fon-dlya-sayta.png); }
+.responsive-menu ul li a { color: #050401; text-transform: uppercase; display: block; padding: 20px;  }
+.responsive-menu li a:hover { background-color: #34393b; }
+
+.el{color: #050401}
+.element {     margin: 25% 5% 0 5%;  text-shadow: 0px 15px 5px rgba(0,0,0,0.1),
+                 10px 20px 5px rgba(0,0,0,0.05),
+                 -10px 20px 5px rgba(0,0,0,0.05);
+ font-size: 52px; 
+height: 200px;}
+.typed-cursor{
+    opacity: 0;
+}
+
+.btn-info button {
+    float: right;
+    margin-right: 8%;
+    
+    border-radius: 15px;
+    opacity: 0.8;
+    padding: 8px 15px;
+   
+}
+.btn-info img
+{
+    opacity: 1;
+}
+.lang{ color: #050401; float: right; margin: 10px 30px;}

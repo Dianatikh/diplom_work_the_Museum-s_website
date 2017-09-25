@@ -1,0 +1,1 @@
+ <?php include $this->view_path_folder . '/' . $content_view; ?>

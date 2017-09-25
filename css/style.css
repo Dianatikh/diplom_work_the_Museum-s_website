@@ -1,0 +1,313 @@
+@font-face {
+    font-family: 'Roboto', sans-serif;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+html,
+body {
+    background: url(../img/36-fon-dlya-sayta.png);
+    font-size: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+body a {
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label,
+p {
+    margin: 0;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+
+/*--header--*/
+
+.head {
+    position: relative;
+    width: 100%;
+}
+
+.header {
+    background-color: #050401;
+    width: 100%;
+    position: absolute;
+    opacity: 0.6;
+}
+
+.logo {
+    position: absolute;
+    opacity: 1;
+    z-index: 19;
+}
+
+.logo img {
+    background-color: #fffaff;
+    border-radius: 10px;
+    margin-top: 35%;
+    height: 140%;
+    width: 140%;
+    clear: right;
+    opacity: 1;
+}
+
+.header-login {
+    display: inline-block;
+    margin-left: 50%;
+    margin-top: 20px;
+    float: right;
+}
+
+.header-login a {
+    display: inline-block;
+    float: right;
+    text-decoration: none;
+    color: #fffaff;
+    font-size: 0.8em;
+    margin: 8px;
+}
+
+.header-login a:hover {
+    color: #050401;
+}
+
+.btn-menu button {
+    float: right;
+    border-radius: 10px;
+    color: #fffaff;
+    background-color: #050401;
+    margin: 0 10px;
+    border-color: #fffaff;
+}
+
+.btn-menu button:hover {
+    color: #050401;
+}
+
+div.eng {
+    margin-left: 30px;
+}
+
+.eng a {
+    color: #fffaff;
+    margin-right: 0px;
+}
+
+.eng a:hover {
+    color: #050401;
+}
+
+.navbar {
+    float: right;
+    background: #050401;
+    margin-bottom: 0px;
+}
+
+.enter {
+    position: absolute;
+    float: right;
+    margin: 13px 10px;
+    color: #fffaff;
+}
+
+.enter:hover {
+    color: #050401;
+}
+
+
+/*footer*/
+
+footer {
+    background: #050401;
+    opacity: 0.6
+}
+
+footer div {
+    color: #fffaff;
+}
+
+footer.menu li {
+    color: #fffaff;
+}
+
+footer .menu li:hover {
+    color: #050401;
+}
+
+footer .eng {
+    float: right;
+}
+
+
+/*banner*/
+
+.banner-top {
+    text-align: center;
+    width: 100%;
+    height: 400px;
+    display: block;
+}
+
+img.banner {
+    width: 100%;
+    height: 400px;
+}
+
+.breadcrumb {
+    background: none;
+}
+
+.breadcrumb li {
+    color: #1F59AF;
+}
+
+.breadcrumb .active {
+    color: #050401;
+}
+
+.title {
+    color: #1f59af;
+    margin: 0px 100px;
+}
+
+
+/*contact*/
+
+.address {
+    background-color: #1f59af;
+    height: 300px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.address i {
+    align-content: center;
+    align-self: center;
+}
+
+.address-grid i {
+    color: #fffaff;
+    font-size: 1em;
+    float: left;
+    margin: 0% 10% 0 10%;
+    display: inline-block;
+    line-height: 2em;
+}
+
+.address .address1 {
+    float: left;
+}
+
+.address-grid {
+    margin: 15px 5px;
+    ;
+    padding: 1em 0;
+}
+
+.address1 h3 {
+    font-size: 1.2em;
+    color: #fffaff;
+    line-height: 1.4em;
+}
+
+.address1 p {
+    margin: 0;
+}
+
+.address1 p a {
+    text-decoration: none;
+    color: #7c7c7c;
+}
+
+.address1 p a:hover {
+    color: #050401;
+}
+
+.address-more h4 {
+    color: #000;
+    font-size: 2em;
+    margin: 0 15px 0.7em;
+}
+
+
+.contact-top div {
+    padding: 0;
+}
+
+.row-form {
+    margin: 40px 0;
+    margin-left: 9%;
+}
+
+.row {
+    margin-right: 0px;
+}
+
+.row .btn {
+    background-color: #7c7c7c;
+    width: 260px;
+}
+
+/*404*/
+
+.nf {
+    text-align: center;
+}
+
+.not-found {
+    margin: 20px 0px;
+    height: 80%;
+    width: 80%;
+    text-align: center;
+}
+
+.not-found-btn {
+    background: none;
+    color: #1f59af;
+    padding: 20px 100px;
+    font-family: roboto;
+    font-size: 24px;
+}
+
+    .comment{
+       border:1px solid #666;
+       margin:10px;
+       padding:10px;
+       font-size:12px;
+       border-radius:4px;
+       box-shadow:2px 2px 2px #999;
+    }
+.tableev{
+    background-color: #7c7c7c;
+}
+
+.image-flex {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+   .fig {
+    text-align: center; /* Выравнивание по центру */ 
+   }
+.adress{
+    
+}
